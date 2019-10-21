@@ -29,6 +29,16 @@ public class Skill {
         this.description = description;
     }
 
+    public Skill(Skill skill, Long id) {
+        this.id = id;
+        this.name = skill.name;
+        this.description = skill.description;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }

@@ -45,6 +45,10 @@ public class Consultant {
         this.skills = skills == null ? Collections.emptyList() : skills;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getFullName() {
         return fullName;
     }
